@@ -8,6 +8,7 @@ def find_email(text):
     match = re.search(email_pattern, text)
     
     if match:
+        print ("hello")
         return match.group()
     else:
         raise Exception( )
